@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .info {
+    max-width: 400px;
+  }
+  
+  .info h1 {
+    font-size: 50px;
+    margin-bottom: 0.5em;
+  }
+  
+  .info p {
+    font-size: 30px;
+    margin-bottom: 1.5em;
+  }
+  
+  .info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    font-size: 20px;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 0.5em;
+    color: #004aad;
+  }
+  
+  .form-container {
+    background-color: #2a2a72;
+    padding: 2em;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  .form-container label span {
+    color: red;
+  }
+  
+  .form-container input {
+    width: 90%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .form-container button {
+    width: 60%;
+    padding: 0.8em;
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 85px;
+  }
+  
+  .form-container button:hover {
+    background-color: #009acf;
+  }
+
+  .nav-home .nav-bar {
+    display: flex;
+    gap: 25px;
+}
+
+.nav1 {
+    font-size: 18px;
+    color: #ff6600;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav1:hover {
+    background-color: rgb(75, 105, 206);
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+}

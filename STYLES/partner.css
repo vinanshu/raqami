@@ -1,0 +1,116 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+
+  
+
+  .nav1 {
+    font-size: 18px;
+    color: #ff6600;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+
+.nav1:hover {
+    background-color: rgb(75, 105, 206);
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px black solid;
+}
+
+
+  nav a {
+    margin: 0 15px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo-home {
+    height: 200px;
+    text-align: justify;
+}
+
+.nav-home .nav-bar {
+    display: flex;
+    gap: 25px;
+}
+
+
+  
+  /* Header Section */
+  .partners-section {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .partners-section h2 {
+    font-size: 24px;
+    color: #1346b6;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  .partners-section h2 .highlight {
+    color: #f7931e; /* Orange highlight */
+    font-size: 50px;
+  }
+  
+  .partners-section .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .partners-section .logos img {
+    max-width: 350px;
+    height: auto;
+  }
+  
+  /* Cards Section */
+  .why-who-what {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: white;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .card .title {
+    background-color: #003d73;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .card p {
+    color: #4a4a4a;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  
